@@ -35,3 +35,5 @@ release/
 x64/
 Debug/
 Release/
+__debug_bin
+main
