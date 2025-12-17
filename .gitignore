@@ -1,0 +1,28 @@
+# --- Ejecutables Generales (Windows) ---
+*.exe
+*.dll
+*.so
+*.dylib
+
+# --- C y C++ (Compilación) ---
+*.o
+*.obj
+*.out
+*.a
+# Si usas carpetas para la salida binaria:
+bin/
+obj/
+debug/
+release/
+
+# --- Go (Golang) ---
+# En Windows los ejecutables de Go son .exe (ya cubierto arriba)
+# En Linux/Mac no tienen extensión, se suele ignorar la carpeta de salida
+# o los nombres específicos.
+*.test
+
+# --- Archivos temporales y de IDEs (VS Code, etc) ---
+.vscode/
+.idea/
+.DS_Store
+*.swp
