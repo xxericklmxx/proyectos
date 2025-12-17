@@ -26,3 +26,12 @@ release/
 .idea/
 .DS_Store
 *.swp
+*.suo
+*.user
+*.db
+*.ipch
+*.sdf
+*.opensdf
+x64/
+Debug/
+Release/
